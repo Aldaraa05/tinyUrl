@@ -61,4 +61,8 @@ a {
   height: 40px !important;
   border:  1px white !important;
 }
+.shortlink {
+  text-decoration: underline !important;
+  margin: 30px;
+}
 
