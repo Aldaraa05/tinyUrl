@@ -1,5 +1,11 @@
 import "./App.css";
-import { BrowserRouter, Link, Route, Routes, useParams } from "react-router-dom";
+import {
+  BrowserRouter,
+  Link,
+  Route,
+  Routes,
+  useParams,
+} from "react-router-dom";
 import Header from "./components/header";
 import logo from "./assets/logo-default.png";
 import Boginoo from "./components/boginoo";
@@ -11,7 +17,6 @@ import { userContext } from "./context";
 import { useState } from "react";
 function App() {
   const [logged, setLogged] = useState(false);
-  let {id} = useParams()  
   return (
     <BrowserRouter>
       <div className="main">
